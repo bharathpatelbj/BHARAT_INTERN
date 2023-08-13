@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(10, 10, 59);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+hr{
+    margin: 30px;
+}
+
+nav {
+    display: flex;
+    background-color: #457095;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    justify-content: space-between;
+
+}
+
+.name {
+    font-size: 30px;
+    color: antiquewhite;
+    margin: 0 150px;
+}
+
+.details a {
+    padding: 25px;
+    font-size: 20px;
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.details a:hover {
+    color: aquamarine;
+    font-size: large;
+}
+
+/* main */
+.first-section {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* .first-section >div{
+    width: 30%;
+} */
+
+.nam {
+    font-size: 50px;
+    color: rgb(65, 65, 192);
+}
+
+.left-section {
+    height: max-content;
+    margin-top: 170px;
+    color: whitesmoke;
+    width: 50%;
+    font-size: 30px;
+    font-style: oblique;
+}
+
+.rigth-section img {
+    width: 100%;
+    margin: 150px 0;
+    height: 400px;
+}
+
+
+.edu {
+    font-size: 50px;
+    color: antiquewhite;
+    margin: 20px 90px;
+}
+
+.degree {
+    font-size: 30px;
+    color: aliceblue;
+    width: 469px;
+    margin: 80px 250px;
+    list-style-type: square;
+    font-style: oblique;
+}
+
+.puc {
+    font-size: 30px;
+    color: aliceblue;
+    list-style-type: square;
+    margin: 80px 890px;
+    width: 355px;
+    font-style: oblique;
+}
+
+.sslc {
+    font-size: 30px;
+    color: aliceblue;
+    list-style-type: square;
+    width: 469px;
+    margin: 80px 250px;
+    font-style: oblique;
+}
+
+.project{
+    font-size: 50px;
+    color: antiquewhite;
+    margin: 20px 90px;
+}
+
+.topic1{
+    font-size: 30px;
+    color: aliceblue;
+    margin: 30px 180px;
+}
+.disp1{
+    color: aliceblue;
+    margin: 0 270px;
+    font-style: oblique;
+    padding: 30px;
+    font-size: x-large;
+}
+
+.skills{
+    font-size: 50px;
+    color: antiquewhite;
+    margin: 50px 90px;
+}
+
+.abc{
+    font-size: 20px;
+    color: aliceblue;
+    margin: 0 270px;
+    display: inline-flex;
+}
+
+.abc div img{
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+}
+
+.xyz{
+    font-size: 20px;
+    color: aliceblue;
+    margin: 0 270px;
+    display: inline-flex;
+}
+.xyz div img{
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+}
+
+/* #CONTACT{
+    display: flex;
+    position: absolute;
+    top: 2530px;
+    height: 300px;
+    background-color: rgb(10, 10, 59);
+} */
+
+.contact{
+    font-size: 50px;
+    color: antiquewhite;
+    margin: 50px 90px;
+}
+.email{
+    color: aliceblue;
+    margin: 0 270px;
+    font-style: oblique;
+    /* padding: 30px; */
+    font-size: x-large;
+}
+.phone{
+    color: aliceblue;
+    margin: 0 270px;
+    font-style: oblique;
+    /* padding: 30px; */
+    font-size: x-large;
+}
